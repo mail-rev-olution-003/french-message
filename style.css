@@ -1,12 +1,27 @@
-body{
-background-color:#ffffff;
-text-color:#000000;
-secondary-color:#d4af37;
-accent-color:#ffffff;
-font-family:Arial,sans-serif;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffd7be, #f5f5dc, #ff69b4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.message{
-colour:black;
-font-size 36px;
+
+.container {
+    text-align: center;
+    color: deep pink ;
 }
-<img src="images/IMG-20240726-WA0002" ALT="My Image" class="my-image>"
+
+button {
+    padding: 18px 28px;
+    font-size: 18px;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
